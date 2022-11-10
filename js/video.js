@@ -54,11 +54,11 @@ document.querySelector("#mute").addEventListener("click", function() {
 	video = document.getElementById("player1")
 	if (!video.muted) {
 		video.muted = true
-		document.getElementById("mute").innerHTML = "unmute"
+		document.getElementById("mute").innerHTML = "Unmute"
 	}
 	else {
 		video.muted = false
-		document.getElementById("mute").innerHTML = "mute"
+		document.getElementById("mute").innerHTML = "Mute"
 	}
 })
 
